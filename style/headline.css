@@ -1,0 +1,23 @@
+.headline-wrapper {
+  background-color: #A5DCF5;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.headline-wrapper .headline-title {
+  font-size: 18px;
+  color: #0057a5;
+  text-shadow: 1px 1px #aaa;
+}
+
+.headline-wrapper .headline-list {
+  font-size: 14px;
+}
+
+.headline-wrapper p {
+  font-size: 14px;
+  margin-left: 23px;
+  margin-top: -15px;
+}

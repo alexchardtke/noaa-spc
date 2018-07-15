@@ -1,7 +1,8 @@
+.app {
+  background-color: white;
+}
 .app-main-content {
   padding: 5px;
-  background-color: white;
-
 }
 
 body {
