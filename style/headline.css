@@ -2,7 +2,7 @@
   background-color: #A5DCF5;
   border: 2px solid black;
   border-radius: 5px;
-  padding: 10px;
+  padding: 3px 10px;
   margin: 5px;
 }
 
@@ -14,10 +14,14 @@
 
 .headline-wrapper .headline-list {
   font-size: 14px;
+  margin: 0 40px;
+  padding: 0;
+  list-style-position: inside;
 }
 
 .headline-wrapper p {
-  font-size: 14px;
-  margin-left: 23px;
-  margin-top: -15px;
+  font-size: 12px;
+  margin-left: 60px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
