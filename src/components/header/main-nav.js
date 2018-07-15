@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { MAIN_NAV_ITEMS } from '../../../constants';
+import { MAIN_NAV_ITEMS } from '../../constants';
 
 export default class MainNav extends Component {
   renderItemWithDivider(item) {
     return (
-      <li key={item} className="nav-item">
-        <a className="nav-link" href={`#${item}`}>{item}</a>
-        <span className="main-nav-divider">|</span>
+      <li key={item} className="nav-item py-0">
+        <a className="nav-link py-0" href={`#${item}`}>{item}</a>
+        <span className="main-nav-divider py-0">|</span>
       </li>
     )
   }
@@ -14,7 +14,7 @@ export default class MainNav extends Component {
   renderItem(item) {
     return (
       <li key={item} className="nav-item">
-        <a className="nav-link" href={`#${item}`}>{item}</a>
+        <a className="nav-link py-0" href={`#${item}`}>{item}</a>
       </li>
     );
   }
@@ -28,7 +28,7 @@ export default class MainNav extends Component {
 
     return (
       <div className="main-nav-wrapper">
-        <ul className="navbar-dark nav">
+        <ul className="navbar-dark nav nav-fill">
           {this.renderMainNavItems()}
           <form className="form-inline my-2 my-lg-0">
             <input className="main-nav-searchbar form-control form-control-sm mr-sm-2 py-0" type="search" placeholder="Search" aria-label="Search" />

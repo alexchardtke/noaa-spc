@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MapNav from './map-nav';
 import Map from './map';
+import MapTable from './map-table';
 
 export default class Maps extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class Maps extends Component {
       <div>
         <MapNav active={this.props.maps.hoveringMap} hoverMapNav={this.props.hoverMap} isHoveringMapNav={this.props.isHoveringMapNav}/>
         <Map id={this.props.maps.hoveringMap}/>
+        <MapTable />
       </div>
     );
   }

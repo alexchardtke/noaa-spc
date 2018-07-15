@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MAP_IMAGES } from '../../../constants';
+import { MAP_IMAGES } from '../../constants';
 
 export default class Map extends Component {
   render() {

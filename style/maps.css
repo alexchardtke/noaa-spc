@@ -1,3 +1,4 @@
+/* Map Nav */
 .map-nav-wrapper {
   background: linear-gradient(#0092D8, #0053A6);
   font-size: 11px;
@@ -18,14 +19,63 @@
 
 .map-nav-wrapper .nav-link {
   color: white;
-  padding: 9px;
+  padding: 7px;
+  font-weight: bold;
 }
 
 .map-nav-wrapper .activeNav {
   color: yellow;
+
 }
 
-.map-nav-divider {
+.map-nav-wrapper .map-nav-divider {
   display: inline-block;
   color: #43adff;
+}
+
+/* Map Table */
+
+.map-table-wrapper {
+  font-size: 9px;
+  max-width: 582px;
+}
+.map-table-wrapper .map-table {
+  background-color: #eeeeee;
+}
+
+.map-table-wrapper .map-table th, td {
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.map-table-wrapper .map-table tbody td, th, tr {
+  padding: 2px;
+}
+
+.map-table-wrapper .map-table thead th {
+  padding: 2px;
+}
+
+.map-table-wrapper .map-table thead .day {
+  color: white;
+  background-color: #0062ae;
+}
+
+.map-table-wrapper .map-table thead .hazard {
+  color: white;
+  background-color: black;
+}
+
+.map-table-wrapper .map-table tbody th {
+  color: white;
+  background-color: #0062ae;
+}
+
+.map-table-wrapper .map-table tbody .marginal {
+  background-color: #7ac687;
+}
+
+.map-table-wrapper .map-table tbody .isoDryT {
+  background-color: #fcde0a;
 }

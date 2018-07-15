@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TOP_NAV_ITEMS } from '../../../constants';
+import { TOP_NAV_ITEMS } from '../../constants';
 
 export default class TopNav extends Component {
   renderNavItems() {

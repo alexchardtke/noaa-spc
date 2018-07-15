@@ -31,6 +31,56 @@ export const MAP_NAV_ITEMS = [
   { item: 'Hazards' }
 ];
 
+export const PRODUCTS_NAV_ITEMS = [
+  { item: 'All Products' },
+  { item: 'Watches' },
+  { item: 'MDs' },
+  { item: 'Outlooks' },
+  { item: 'Fire' },
+];
+
+export const PRODUCTS_ALL_PRODUCTS_LIST_ITEMS = [
+  {
+    src: '/images/products/day1otlk_sm.gif',
+    alt: 'Day 1 Outlook',
+    title: 'Day 1 Convective Outlook',
+    risk: 'Marginal',
+    issued: '07/15/2018 at 0058Z'
+  },
+  {
+    src: '/images/products/enh_small.gif',
+    alt: 'enh-1',
+    title: 'Thunderstorm Outlook',
+    issued: '07/15/2018 at 1237Z'
+  },
+  {
+    src: '/images/products/day1otlk_sm.gif',
+    alt: 'Day 2 Outlook',
+    title: 'Day 2 Convective Outlook',
+    risk: 'Marginal',
+    issued: '07/15/2018 at 0058Z'
+  },
+  {
+    src: '/images/products/enh_small.gif',
+    alt: 'enh–2',
+    title: 'Thunderstorm Outlook',
+    issued: '07/15/2018 at 1237Z'
+  },
+  {
+    src: '/images/products/day1otlk_sm.gif',
+    alt: 'Day 3 Outlook',
+    title: 'Day 3 Convective Outlook',
+    risk: 'Marginal',
+    issued: '07/15/2018 at 0058Z'
+  },
+  {
+    src: '/images/products/enh_small.gif',
+    alt: 'enh–3',
+    title: 'Thunderstorm Outlook',
+    issued: '07/15/2018 at 1237Z'
+  },
+];
+
 export const MAP_IMAGES = [
   {
     src: '/images/activity_loop.gif',
@@ -64,4 +114,44 @@ export const MAP_IMAGES = [
     src: '/images/hazards.png',
     alt: 'Hazards'
   },
+];
+
+export const FEATURE_CARDS = [
+  {
+    title: 'Severe Weather Climatology (1982-2011)',
+    src: '/images/feature/sm_197.png',
+    alt: 'Severe Weather Climatology',
+    subText: 'Any Severe Probabilities: 15 Jul',
+    moreData: 'More severe weather climatology data here.'
+  },
+  {
+    title: '2018 Tornado Watch Summary',
+    src: '/images/feature/2018_torww_to_date_sm.png',
+    alt: 'Tornado Watch Summary',
+  },
+  {
+    title: 'Did You Know?',
+    src: '/images/feature/Outlook-category-descriptions-sm.png',
+    alt: 'Did You Know?',
+    subText: 'What\'s my risk?',
+  },
+  {
+    title: 'Forecast Tools',
+    src: '/images/feature/href_sm.png',
+    alt: 'Forecast Tools',
+    subText: 'HREF',
+  },
+  {
+    title: '2018 Severe Tstm Watch Summary',
+    src: '/images/feature/2018_svrww_to_date_sm.png',
+    alt: 'Severe Tstm Watch Summary',
+    moreData: 'Page last modified: July 15 2018 12:17 UTC',
+  },
+  {
+    title: 'Wildfire Climatology (1992-2015)',
+    src: '/images/feature/wildfire_sm.png',
+    alt: 'Wildfire Climatology',
+    subText: '100 Acres Wildfire Probabilities: 15 July',
+    moreData: 'More wildfire climatology data here.'
+  }
 ]

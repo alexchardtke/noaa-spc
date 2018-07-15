@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MAP_NAV_ITEMS } from '../../../constants';
+import { MAP_NAV_ITEMS } from '../../constants';
 
 export default class MapNav extends Component {
 

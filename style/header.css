@@ -11,6 +11,8 @@
 .banner-wrapper img {
   display: block;
   margin: auto;
+  width: 100%;
+  max-width: 960px;
 }
 
 .main-nav-wrapper {
@@ -18,8 +20,16 @@
   font-size: 13px;
 }
 
+.main-nav-wrapper ul {
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 3px;
+}
+
 .main-nav-wrapper .nav-link {
   color: white;
+  font-size: 11px;
+  padding: 17px;
 }
 
 .main-nav-wrapper .nav-item {
