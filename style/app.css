@@ -1,0 +1,9 @@
+.app-main-content {
+  padding: 5px;
+  background-color: white;
+
+}
+
+body {
+  background: url('/images/bg_fade.png') repeat-x scroll center top #336699;
+}

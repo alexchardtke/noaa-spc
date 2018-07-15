@@ -1,0 +1,38 @@
+.top-nav-wrapper {
+    background-color: #279fe2;
+    font-size: 13px;
+}
+
+.top-nav-searchbar {
+  font-size: 10px;
+  max-width: 130px;
+}
+
+.banner-wrapper img {
+  display: block;
+  margin: auto;
+}
+
+.main-nav-wrapper {
+  background: linear-gradient(#0092D8, #0053A6);
+  font-size: 13px;
+}
+
+.main-nav-wrapper .nav-link {
+  color: white;
+}
+
+.main-nav-wrapper .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav-divider {
+  display: inline-block;
+  color: #43adff;
+}
+
+.main-nav-searchbar {
+  margin-left: 10px;
+  font-size: 11px;
+}

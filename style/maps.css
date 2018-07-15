@@ -1,0 +1,31 @@
+.map-nav-wrapper {
+  background: linear-gradient(#0092D8, #0053A6);
+  font-size: 11px;
+  width: 582px;
+  flex-wrap: nowrap;
+}
+
+.map-nav-wrapper .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.map-nav-wrapper .map-nav-list {
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 3px;
+}
+
+.map-nav-wrapper .nav-link {
+  color: white;
+  padding: 9px;
+}
+
+.map-nav-wrapper .activeNav {
+  color: yellow;
+}
+
+.map-nav-divider {
+  display: inline-block;
+  color: #43adff;
+}

@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
+import maps from './maps';
 
-const rootReducer = combineReducers({
+export default combineReducers({
+  maps,
   state: (state = {}) => state
 });
-
-export default rootReducer;
