@@ -22,7 +22,7 @@ export default class MapTable extends Component {
           <tbody>
             <tr className="map-row-severe">
               <th className="severe" scope="row">Severe</th>
-              <td className="marginal">Marginal</td>
+              <td className="slight">Slight</td>
               <td className="marginal">Marginal</td>
               <td className="marginal">Marginal</td>
               <td className="">No Area</td>
@@ -33,7 +33,7 @@ export default class MapTable extends Component {
             </tr>
             <tr className="map-row-fire">
               <th className="fire" scope="row">Fire</th>
-              <td className="isoDryT">Iso DryT</td>
+              <td className="critical">Critical</td>
               <td className="isoDryT">Iso DryT</td>
               <td className="">No Area</td>
               <td className="">No Area</td>

@@ -1,5 +1,5 @@
 export const HOVER_MAP_NAV = 'HOVER_MAP_NAV';
-export const IS_HOVERING_MAP_NAV = 'IS_HOVERING_MAP_NAV';
+export const CLICK_PRODUCT_TAB = 'CLICK_PRODUCT_TAB';
 
 export const TOP_NAV_ITEMS = [
   { item: 'Site Map' },
@@ -81,6 +81,14 @@ export const PRODUCTS_ALL_PRODUCTS_LIST_ITEMS = [
   },
 ];
 
+export const PRODUCTS_WATCHES_LIST_ITEMS = [];
+
+export const PRODUCTS_MDS_LIST_ITEMS = [];
+
+export const PRODUCTS_OUTLOOKS_LIST_ITEMS = [];
+
+export const PRODUCTS_FIRE_LIST_ITEMS = [];
+
 export const MAP_IMAGES = [
   {
     src: '/images/activity_loop.gif',
@@ -154,4 +162,4 @@ export const FEATURE_CARDS = [
     subText: '100 Acres Wildfire Probabilities: 15 July',
     moreData: 'More wildfire climatology data here.'
   }
-]
+];

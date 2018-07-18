@@ -5,8 +5,7 @@ import { hoverMapNav, isHoveringMapNav } from '../actions';
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    ...state,
-    hoveringMap: state.hoveringMap
+    ...state
   };
 };
 

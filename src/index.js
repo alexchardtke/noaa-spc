@@ -13,7 +13,10 @@ import reducers from './reducers';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const initialState = {
   maps: {
-    hoveringMap: 0
+    hoveringMap: 0,
+  },
+  products: {
+    activeProductTab: 0
   }
 }
 const store = createStore(reducers, initialState, composeEnhancers(

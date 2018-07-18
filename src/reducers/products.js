@@ -1,11 +1,11 @@
-import { HOVER_MAP_NAV } from '../constants';
+import { CLICK_PRODUCT_TAB } from '../constants';
 
 export default (state = {}, action) => {
   switch (action.type) {
-    case HOVER_MAP_NAV:
+    case CLICK_PRODUCT_TAB:
       return {
         ...state,
-        hoveringMap: action.hoveringMap
+        activeProductTab: action.activeProductTab
       };
     default:
       return state;

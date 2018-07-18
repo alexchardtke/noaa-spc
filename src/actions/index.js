@@ -1,4 +1,4 @@
-import { HOVER_MAP_NAV, IS_HOVERING_MAP_NAV } from '../constants';
+import { HOVER_MAP_NAV, CLICK_PRODUCT_TAB } from '../constants';
 
 export function hoverMapNav (id, currentId) {
   let popId = null;
@@ -13,6 +13,13 @@ export function hoverMapNav (id, currentId) {
 
 export const isHoveringMapNav = (id) => {
   return (dispatch, getState) => {
-    dispatch(hoverMapNav(id, getState().hoveringMap));
+    dispatch(hoverMapNav(id, getState().maps.hoveringMap));
   };
+}
+
+export function clickedProductTab (id) {
+  return {
+    type: CLICK_PRODUCT_TAB,
+    activeProductTab: id
+  }
 }
