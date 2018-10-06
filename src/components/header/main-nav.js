@@ -1,31 +1,16 @@
 import React, { Component } from 'react';
+import MainNavItem from './main-nav-item';
 import { MAIN_NAV_ITEMS } from '../../constants';
 
 export default class MainNav extends Component {
-  renderItemWithDivider(item) {
-    return (
-      <li key={item} className="nav-item py-0">
-        <a className="nav-link py-0" href={`#${item}`}>{item}</a>
-        <span className="main-nav-divider py-0">|</span>
-      </li>
-    )
-  }
-
-  renderItem(item) {
-    return (
-      <li key={item} className="nav-item">
-        <a className="nav-link py-0" href={`#${item}`}>{item}</a>
-      </li>
-    );
-  }
 
   renderMainNavItems() {
-    return MAIN_NAV_ITEMS.map(item => {
-      return item.hasDivider ? this.renderItemWithDivider(item.item) : this.renderItem(item.item);
+    return MAIN_NAV_ITEMS.map((item, index) => {
+      return <MainNavItem key={index} item={item} index={index}/>
     });
   }
-  render() {
 
+  render() {
     return (
       <div className="main-nav-wrapper">
         <ul className="navbar-dark nav nav-fill">

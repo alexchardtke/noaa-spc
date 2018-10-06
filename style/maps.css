@@ -24,7 +24,7 @@
 }
 
 .map-nav-wrapper .activeNav {
-  color: yellow;
+  color: #FF3;
 
 }
 
@@ -38,9 +38,11 @@
 .map-table-wrapper {
   font-size: 9px;
   max-width: 582px;
+  border: 1px solid black;
 }
 .map-table-wrapper .map-table {
-  background-color: #eeeeee;
+  background-color: #e7e7e7;
+  margin-bottom: 0;
 }
 
 .map-table-wrapper .map-table th, td {
@@ -51,6 +53,17 @@
 
 .map-table-wrapper .map-table tbody td, th, tr {
   padding: 2px;
+}
+
+/* Bootstrap override */
+.table-bordered th, .table-bordered td {
+    border: 1px solid white;
+}
+
+/* Bootstrap override */
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 0;
 }
 
 .map-table-wrapper .map-table thead th {

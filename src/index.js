@@ -12,6 +12,9 @@ import reducers from './reducers';
 // const createStoreWithMiddleware = applyMiddleware()(createStore);
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const initialState = {
+  nav: {
+    hoveringNav: null
+  },
   maps: {
     hoveringMap: 0,
   },

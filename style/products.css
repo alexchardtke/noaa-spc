@@ -46,6 +46,7 @@
   border: 1px solid #aaa;
   max-height: 460px;
   overflow: scroll;
+  background-color: #f5ffff;
 }
 
 .products-list-no-active {

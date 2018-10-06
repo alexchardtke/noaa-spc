@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Maps from '../components/maps';
-import { hoverMapNav, isHoveringMapNav } from '../actions';
+import { hoverMapNav } from '../actions';
 
 const mapStateToProps = (state, ownProps) => {
   return {
@@ -11,8 +11,7 @@ const mapStateToProps = (state, ownProps) => {
 
 const mapDispatchToProps = (dispatch) => {
   return bindActionCreators({
-    hoverMapNav,
-    isHoveringMapNav
+    hoverMapNav
   }, dispatch);
 };
 

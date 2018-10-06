@@ -1,5 +1,6 @@
 export const HOVER_MAP_NAV = 'HOVER_MAP_NAV';
 export const CLICK_PRODUCT_TAB = 'CLICK_PRODUCT_TAB';
+export const HOVER_MAIN_NAV = 'HOVER_MAIN_NAV';
 
 export const TOP_NAV_ITEMS = [
   { item: 'Site Map' },
@@ -10,14 +11,297 @@ export const TOP_NAV_ITEMS = [
 ];
 
 export const MAIN_NAV_ITEMS = [
-  { item: 'HOME', hasDivider: true },
-  { item: 'NEWS', hasDivider: true },
-  { item: 'SPC PRODUCTS', hasDivider: true },
-  { item: 'WEATHER INFO', hasDivider: true },
-  { item: 'FORECAST TOOLS', hasDivider: true },
-  { item: 'RESEARCH', hasDivider: true },
-  { item: 'OUTREACH', hasDivider: true },
-  { item: 'NWS/NCEP' },
+  {
+    menuTitle: 'HOME',
+    hasDivider: true,
+    submenu: [
+      {
+        title: 'Home Page',
+        href: '#'
+      },
+      {
+        title: 'Classic Home Page',
+        href: '#'
+      }
+    ]
+  },
+  {
+    menuTitle: 'NEWS',
+    hasDivider: true,
+    submenu: [
+      {
+        title: 'NWS News',
+        href: '#'
+      },
+      {
+        title: 'NCEP News',
+        href: '#'
+      },
+      {
+        title: 'SPC News',
+        href: '#'
+      }
+    ]
+  },
+  {
+    menuTitle: 'SPC PRODUCTS',
+    hasDivider: true,
+    submenu: [
+      {
+        title: 'All Forecasts',
+        href: '#'
+      },
+      {
+        title: 'Severe Thunderstorm/Tornado Watches',
+        href: '#'
+      },
+      {
+        title: 'Mesoscale Discussions',
+        href: '#'
+      },
+      {
+        title: 'Convective Outlooks',
+        href: '#'
+      },
+      {
+        title: 'Thunderstorm Outlook',
+        href: '#'
+      },
+      {
+        title: 'Fire Weather Outlooks',
+        href: '#'
+      },
+      {
+        title: 'Product Overview',
+        href: '#'
+      },
+      {
+        title: 'Experimental Products',
+        href: '#'
+      },
+      {
+        title: 'Products in KML/Shapefile Formats',
+        href: '#'
+      },
+      {
+        title: 'RSS Feeds',
+        href: '#'
+      },
+      {
+        title: 'Email Alerts',
+        href: '#'
+      }
+    ]
+  },
+  {
+    menuTitle: 'WEATHER INFO',
+    hasDivider: true,
+    submenu: [
+      {
+        title: 'Storm Reports',
+        href: '#'
+      },
+      {
+        title: 'Storm Reports Prototype',
+        href: '#'
+      },
+      {
+        title: 'Storm Report Trends',
+        href: '#'
+      },
+      {
+        title: 'Severe Weather Climatology',
+        href: '#'
+      },
+      {
+        title: 'Product Archive',
+        href: '#'
+      },
+      {
+        title: 'Watch/Warning Map',
+        href: '#'
+      },
+      {
+        title: 'National RADAR',
+        href: '#'
+      },
+      {
+        title: 'NOAA Weather Radio',
+        href: '#'
+      }
+    ]
+  },
+  {
+    menuTitle: 'FORECAST TOOLS',
+    hasDivider: true,
+    submenu: [
+      {
+        title: 'Mesoanalysis',
+        href: '#'
+      },
+      {
+        title: 'Observed Sounding Analysis',
+        href: '#'
+      },
+      {
+        title: 'Sounding Climatology',
+        href: '#'
+      },
+      {
+        title: 'Upper-Air Maps',
+        href: '#'
+      },
+      {
+        title: 'HREF',
+        href: '#'
+      },
+      {
+        title: 'HRRR Browser',
+        href: '#'
+      },
+      {
+        title: 'SREF',
+        href: '#'
+      },
+      {
+        title: 'SREF Plumes',
+        href: '#'
+      },
+      {
+        title: 'Fire Weather Composite Maps',
+        href: '#'
+      },
+      {
+        title: 'Compmap',
+        href: '#'
+      }
+    ]
+  },
+  {
+    menuTitle: 'RESEARCH',
+    hasDivider: true,
+    submenu: [
+      {
+        title: 'Publications',
+        href: '#'
+      },
+      {
+        title: 'Severe Thunderstorm Event Archive',
+        href: '#'
+      },
+      {
+        title: 'Tornado Environment Browser',
+        href: '#'
+      },
+      {
+        title: 'Violent Tornado Outbreaks',
+        href: '#'
+      },
+      {
+        title: 'SPC-NSSL Hazardous Weather Testbed',
+        href: '#'
+      }
+    ]
+  },
+  {
+    menuTitle: 'OUTREACH',
+    hasDivider: true,
+    submenu: [
+      {
+        title: 'About',
+        href: '#'
+      },
+      {
+        title: 'FAQ',
+        href: '#'
+      },
+      {
+        title: 'WCM Page',
+        href: '#'
+      },
+      {
+        title: 'About Tornadoes',
+        href: '#'
+      },
+      {
+        title: 'About Derechos',
+        href: '#'
+      },
+      {
+        title: 'Severe Weather Safety',
+        href: '#'
+      },
+      {
+        title: 'Enhanced Fujita Scale',
+        href: '#'
+      },
+      {
+        title: 'Video Lecture Series',
+        href: '#'
+      },
+      {
+        title: 'History',
+        href: '#'
+      },
+      {
+        title: 'NOAA Communications',
+        href: '#'
+      },
+      {
+        title: 'Staff Listing',
+        href: '#'
+      },
+      {
+        title: 'Public Tours',
+        href: '#'
+      }
+    ]
+  },
+  {
+    menuTitle: 'NWS/NCEP',
+    submenu: [
+      {
+        title: 'National Weather Service (NWS)',
+        href: '#'
+      },
+      {
+        title: 'National Centers for Environmental Prediction (NCEP)',
+        href: '#'
+      },
+      {
+        title: 'Aviation Weather Center (AWC)',
+        href: '#'
+      },
+      {
+        title: 'Climate Prediction Center (CPC)',
+        href: '#'
+      },
+      {
+        title: 'Environmental Modeling Center (EMC)',
+        href: '#'
+      },
+      {
+        title: 'NCEP Central Operations (NCO)',
+        href: '#'
+      },
+      {
+        title: 'National Hurricane Center (NHC)',
+        href: '#'
+      },
+      {
+        title: 'Ocean Prediction Center (OPC)',
+        href: '#'
+      },
+      {
+        title: 'Space Weather Prediction Center (SWPC)',
+        href: '#'
+      },
+      {
+        title: 'Weather Prediction Center (WPC)',
+        href: '#'
+      }
+    ]
+  },
 ];
 
 export const MAP_NAV_ITEMS = [

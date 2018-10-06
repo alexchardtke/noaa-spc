@@ -1,20 +1,18 @@
-import { HOVER_MAP_NAV, CLICK_PRODUCT_TAB } from '../constants';
+import { HOVER_MAP_NAV, CLICK_PRODUCT_TAB, HOVER_MAIN_NAV } from '../constants';
 
-export function hoverMapNav (id, currentId) {
-  let popId = null;
-
-  if (id !== currentId) popId = id;
-
+export function hoverMapNav (id) {
   return {
     type: HOVER_MAP_NAV,
-    hoveringMap: popId
+    hoveringMap: id
   };
 }
 
-export const isHoveringMapNav = (id) => {
-  return (dispatch, getState) => {
-    dispatch(hoverMapNav(id, getState().maps.hoveringMap));
-  };
+export function hoverMainNav (id) {
+  console.log('nav id', id);
+  return {
+    type: HOVER_MAIN_NAV,
+    hoveringNav: id
+  }
 }
 
 export function clickedProductTab (id) {
